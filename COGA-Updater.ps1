@@ -7,8 +7,8 @@ Write-Host "======================================="
 $zipPath = Join-Path $APPDIR "Update-COGA.zip"
 
 if (!(Test-Path $zipPath)) {
-    Write-Host "ERROR: Update-COGA.zip Tidak Ditemukan !!!"
-    Read-Host "Tekan Enter untuk keluar"
+    Write-Host "ERROR : Update-COGA.zip Tidak Ditemukan !!!"
+    Read-Host "Tekan Enter Untuk Keluar"
     exit
 }
 
