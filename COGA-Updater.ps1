@@ -7,18 +7,18 @@ Write-Host "======================================="
 $zipPath = Join-Path $APPDIR "Update-COGA.zip"
 
 if (!(Test-Path $zipPath)) {
-    Write-Host "ERROR: Update-COGA.zip tidak ditemukan!"
+    Write-Host "ERROR: Update-COGA.zip Tidak Ditemukan !!!"
     Read-Host "Tekan Enter untuk keluar"
     exit
 }
 
-Write-Host "Mengekstrak update..."
+Write-Host "Mengekstrak Update ..."
 Expand-Archive -LiteralPath $zipPath -DestinationPath $APPDIR -Force
-Write-Host "Extract selesai!"
+Write-Host "Extract Selesai !!!"
 
 Start-Process "$APPDIR\COGA-Inventori.exe"
 
-Write-Host "Menghapus file updater..."
+Write-Host "Menghapus File Updater ..."
 
 # === SELF DELETE TANPA ERROR ===
 $delete = @"
