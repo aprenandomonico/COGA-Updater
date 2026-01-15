@@ -14,23 +14,23 @@ echo %APPDIR%
 echo.
 
 if not exist "%APPDIR%Update-COGA.zip" (
-    echo ERROR : File Update-COGA.zip tidak ditemukan!
+    echo ERROR : File Update-COGA.zip Tidak Ditemukan !!!
     pause
     exit
 )
 
-echo Mengekstrak update...
+echo Mengekstrak Update ...
 powershell -command "Expand-Archive -Force '%APPDIR%Update-COGA.zip' '%APPDIR%'"
 
-echo Extract selesai!
+echo Extract Selesai !!!
 echo.
 
-echo Menjalankan ulang aplikasi...
+echo Menjalankan Ulang Aplikasi ...
 start "" "%APPDIR%COGA-Inventori.exe"
 
 echo.
-echo Update selesai!
-echo Membersihkan file updater...
+echo Update Selesai !!!
+echo Membersihkan File Updater ...
 echo.
 
 rem === SCRIPT SELF DELETE TANPA ERROR ===
