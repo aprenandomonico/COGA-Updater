@@ -1,8 +1,9 @@
 {   
-  "version": "2026.02.25.0",
-  "changelog": "• Penambahan Tabel : 'Security Log'\n• Penyesuaian Pemeriksaan Online Atau Offline Pada Aplikasi",   
+  "version": "2026.02.26.0",
+  "changelog": "• Perbaikan Pada Semua Validasi 'isWaktuSistemMundur'",   
   "url_download": "https://drive.google.com/drive/folders/1a1gspFgOhio8Jc5KzFO9u45AuLnfdCA6" 
 }
+
 
 
 
