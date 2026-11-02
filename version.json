@@ -1,6 +1,6 @@
 {   
-  "version": "2026.10.30.0",
-  "changelog": "• Perbaikan Kompatibilitas Pembacaan HWID Pada Windows 11",   
+  "version": "2026.11.03.0",
+  "changelog": "• Peningkatan Stabilitas Pembacaan HWID Pada Windows 10 & 11",   
   "url_download": "https://drive.google.com/drive/folders/1a1gspFgOhio8Jc5KzFO9u45AuLnfdCA6" 
 }
 
